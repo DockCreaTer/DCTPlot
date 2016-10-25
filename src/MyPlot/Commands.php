@@ -28,6 +28,7 @@ use MyPlot\subcommand\WarpSubCommand;
 use MyPlot\subcommand\DenyPlayerSubCommand;
 use MyPlot\subcommand\UnDenySubCommand;
 use MyPlot\subcommand\SetOwnerSubCommand;
+use MyPlot\subcommand\BuildGoSubCommand
 
 class Commands extends PluginCommand
 {
@@ -65,6 +66,7 @@ class Commands extends PluginCommand
         $this->loadSubCommand(new DoneSubCommand($plugin, "done"));
         $this->loadSubCommand(new SetOwnerSubCommand($plugin, "setowner"));
         $this->loadSubCommand(new ListSubCommand($plugin, "list"));
+        $this->loadSubCommand(new BuildGoSubCommand($plugin, "buildgo"));
     }
 
     /**
