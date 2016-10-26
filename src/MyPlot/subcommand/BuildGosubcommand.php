@@ -2,9 +2,8 @@
 namespace MyPlot\subcommand;
 
 use pocketmine\command\CommandSender;
-use pocketmine\level\Level;
-use pocketmine\level\Location;
-use pocketmine\level\Position;
+use pocketmine\Player;
+use pocketmine\level\sound\EndermanTeleportSound;
 
 class BuildGoSubCommand extends SubCommand
  
